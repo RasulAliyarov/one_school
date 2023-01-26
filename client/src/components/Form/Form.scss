@@ -1,0 +1,43 @@
+.form{
+    padding: 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    div{
+        display: flex;
+        gap: 30px;
+        position: relative;
+        div{
+        }
+        input{
+        width: 100%;
+        }
+    }
+    input{
+        margin-bottom: 20px;
+        padding: 15px 20px;
+        border-radius: 6px;
+        border: 1px solid rgb(175, 175, 175);
+        &:focus{
+            outline: none;
+        }
+    }
+    textarea{
+        padding: 15px 20px;
+        resize: vertical;
+        border-radius: 6px;
+        border: 1px solid rgb(175, 175, 175);
+        &:focus{
+            outline: none;
+        }
+    }
+
+    button{
+        width: fit-content;
+        padding: 15px 60px;
+        border-radius: 6px;
+        margin-top: 30px;
+    }
+    .errorMessage{
+        color: red;
+    }
+}
